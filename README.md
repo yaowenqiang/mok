@@ -7,3 +7,6 @@ Develop and Operate Microservices on  Kuberentes
 > curl -v my-service.default.svc.cluster.local
 > kubectl edit deployment my-deployment
 > kubectl rollout undo deployment/my-deployment
+> kubectl get storageclass
+> nslookup my-service
+
