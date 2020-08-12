@@ -5,9 +5,9 @@ metadata:
 spec:
     containers:
       - name: my-service-with-config
-        image: nginx:1.3.12
+        image: nginx
         env:
-          - name: some value
+          - name: SOME_VALUE
             valueFrom:
                 configMapKeyRef:
                     name: my-configmap
