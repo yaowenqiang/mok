@@ -4,7 +4,7 @@ metadata:
     name: my-pod-with-configmap
 spec:
     containers:
-      - name: my-service-with-config
+      - name: my-configmap-with-volume-mount
         image: nginx
         env:
           - name: SOME_VALUE

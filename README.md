@@ -10,3 +10,4 @@ Develop and Operate Microservices on  Kuberentes
 > kubectl get storageclass
 > nslookup my-service
 
+> kubectl create configmap my-configmap --from-file=./config

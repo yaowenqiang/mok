@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: my-pod-with-configmap-volume-mount
+spec:
+    containers:
+      - name: my-nginx-service
+        image: nginx:alpine
+        volumeMounts:
+          - name: config
+            mountPath: /etc/config
+    volumes:
+      - name: config
+        configMap:
+            name: my-configmap-with-volume-mount

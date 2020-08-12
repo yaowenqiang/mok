@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+    name: my-configmap-multi-string
+data;
+    config.ini: |
+        some_variable = foo
+    some_other_variable: baz
+    database.ini: |
+        uri = mongodb://my-database:27017/.
