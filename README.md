@@ -11,3 +11,8 @@ Develop and Operate Microservices on  Kuberentes
 > nslookup my-service
 
 > kubectl create configmap my-configmap --from-file=./config
+> kubectl create secret generic my-secret --from-file=./secret
+> kubectl edit secrect my-secret
+> kubectl create secret generic my-order-secrect --from-iteral=somevariable=somevalue
+
+
