@@ -14,5 +14,8 @@ Develop and Operate Microservices on  Kuberentes
 > kubectl create secret generic my-secret --from-file=./secret
 > kubectl edit secrect my-secret
 > kubectl create secret generic my-order-secrect --from-iteral=somevariable=somevalue
+> https://docs.gitlab.com/charts/installation/
+. https://docs.gitlab.com/ce/ci/docker/using_docker_build.html
 
+> https://docs.gitlab.com/omnibus/docker/
 
