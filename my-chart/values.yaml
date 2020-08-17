@@ -1,0 +1,10 @@
+replicaCount: 1
+image:
+    repository: app
+    tag: latest
+    pullPolicy: Always
+service:
+    name: http
+    type: ClusterIP
+    externalPort: 80
+    internalPort: 80

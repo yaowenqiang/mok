@@ -19,3 +19,12 @@ Develop and Operate Microservices on  Kuberentes
 
 > https://docs.gitlab.com/omnibus/docker/
 
+> helm init
+> kubectl get pods --namespace kube-system
+> https://golang.org/pkg/text/template/
+> helm create 
+> helm install --set image.tag=v2.0.0 --name myrelease chart
+> helm upgrade --set image.tag=1.0.1 myrelease /.chart
+
+
+
